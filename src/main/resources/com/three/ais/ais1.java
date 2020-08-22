@@ -13,6 +13,8 @@ import java.util.function.Consumer;
  **/
 public class ais1 {
     /**
+         !AIVDM,1,1,,A,15NGdT?001G?eWRE`E9r8QoF2D11,0*10
+         !AIVDM,1,1,,A,15ND4kP000G@6I@Ea5AGhI3D0HI6,0*69
      * 解码函数
      * @param input
      * @throws IOException
@@ -53,10 +55,10 @@ public class ais1 {
             File file = new File("Ais.txt");
 
             //2.提供FileWriter的对象，用于数据的写出
-            fw = new FileWriter(file,false);
+            fw = new FileWriter(file,true);
 
             //3.写出的操作
-            fw.write(aismessage);
+            fw.write(aismessage+"\n");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
