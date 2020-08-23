@@ -13,8 +13,7 @@ import java.util.function.Consumer;
  **/
 public class ais1 {
     /**
-         !AIVDM,1,1,,A,15NGdT?001G?eWRE`E9r8QoF2D11,0*10
-         !AIVDM,1,1,,A,15ND4kP000G@6I@Ea5AGhI3D0HI6,0*69
+     !AIVDM,1,1,,A,15ND4kP000G@6I@Ea5AGhI3D0HI6,0*69
      * 解码函数
      * @param input
      * @throws IOException
